@@ -1745,4 +1745,28 @@ about-highlight {
     }
 
 }
+/*PER SISTEMAR ILMENU EN EL CELLULARE*/
+/* FIX SOLO MOBILE MENU */
+@media (max-width: 768px) {
+
+    nav {
+        overflow-x: auto;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    nav ul li {
+        flex: 0 0 auto;
+    }
+}
+
+
+
+
 
